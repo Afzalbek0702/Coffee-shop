@@ -1,0 +1,116 @@
+.Header{
+    background: #14110E;
+}
+.top-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 174px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.header-top{
+    /* display: flex; */
+    padding-left: 45px;
+    /* justify-content: center; */
+}
+.header-top h1,h2,h3{
+    margin-bottom:24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.header-top span{
+    color: #C99E71;
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.texts h1{
+    /* padding-left: ; */
+}
+.header-body{
+    display: flex;
+    justify-content: center;
+}
+.head-body-left{
+    padding-top: 140px;
+    margin-right: 32px;
+}
+.h-b-l-i1{
+    display: block;
+    margin-bottom: -302px;
+    height: 302px;
+    width: 298px;
+    left: 375px;
+    top: 1618px;
+    border-radius: 0px;
+
+}
+.h-b-l-i2{
+    height: 302px;
+    width: 298px;
+    left: 375px;
+    top: 1618px;
+    border-radius: 0px;
+    
+    /* display: block; */
+}
+.h-b-l-i3{
+    margin-left: 32px;
+    /* display: inline; */
+    /* float: right; */
+    /* margin-left: 0px; */
+}
+.head-body-right{
+    margin-top: 140px;
+    height: 635px;
+    width: 510px;
+    left: 1035px;
+    top: 1618px;
+    border-radius: 0px;
+    background: #1C1814;
+}
+.head-body-right h1{
+    margin: 120px 56px 0;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C99E71;
+}
+.head-body-right h2{
+    margin: 0 56px 0 ;
+    height: 124px;
+    max-width: 398px;    
+    font-family: Righteous;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.head-body-right h3{
+    height: 174px;
+    max-width: 368px;    
+    margin: 0 56px 0;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* color: white; */
+    text-transform: capitalize;
+    color: rgba(243, 243, 243, 0.781);
+    opacity: 0.8;
+}

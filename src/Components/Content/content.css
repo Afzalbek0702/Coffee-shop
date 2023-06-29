@@ -1,0 +1,184 @@
+.content{
+    background: #14110E;
+}
+.content-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product1 , .product2{
+    margin: 18px;
+    height: 549px;
+    width: 366px;
+    background: #121315;
+    font-family: cursive;
+}
+.product1-img{
+    margin: 48px 48px 16px 48px;
+}
+.product1 h1{
+    /* font-family: Righteous; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+}
+.product1 button{
+    margin: 28px 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 169px;
+    background-color: #C99E71;
+    border: none;
+    text-align: center;
+    color: white;
+    /* font-family: Urbanist; */
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    /* text-align: left;     */
+}
+.btn-img{
+    margin-right: 10px;
+    display: inline-block;
+}
+.product2 img:nth-child(3){
+    margin: auto;
+}
+.product2-img{
+    width: 230px;
+    margin-left:70px;
+}
+.product2 h1{
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: cursive;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.product2 h2{
+    margin-top:15px ;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: cursive;
+}
+span{
+    color: #C99E71;
+}
+.content-title{
+    padding-top: 140px;
+    color: #C99E71;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content-title2{
+    font-family: Righteous;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content-top-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 62px;
+    width: 100%;
+    margin-top: 56px;
+}
+.content-top-btn button{
+    
+    height: 62px;
+    width: 252px;
+    background-color: #C99E71;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;    
+    border: none;
+}
+.content-body{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-body-product{
+    height: 530px;
+    max-width: 1170px;
+    width: 100%;
+    background: #1C1814;
+}
+.content-body-product img{
+    margin: 85px 169px 0;
+    float: left;
+}
+.content-body-product-text{
+    margin-right: 94px;
+    margin-top: 84px;
+    float: right;
+    max-width: 510px;
+    width: 100%;
+}
+.content-body-product h1{
+    margin-right:154px ;
+    float: right;
+    color: white;
+    max-width: 361px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62px;
+}
+.content-body-product h2{
+    margin-top: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 116px;
+    max-width: 535px;
+    width: 100%;
+    float: right;
+    color: #FFFFFFCC;
+    text-transform: capitalize;
+}
+.content-body-product-text button{
+    margin-top: 36px;
+    height: 62px;
+    width: 215px;
+    left: 930px;
+    top: 3766px;
+    background: #C99E71;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;    
+    border: none;
+
+}

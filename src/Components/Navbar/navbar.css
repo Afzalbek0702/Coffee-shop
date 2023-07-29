@@ -1,146 +1,324 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	width: 100%;
+	height: 105px;
+	line-height: 105px;
+	background: #1c1814;
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navbar ul i {
+	display: none;
+	transition: 0.2s all;
+}
+.navbar i:hover {
+	transform: scale(1.3);
+	color: #fdc283;
+}
+.navbar li {
+	padding: 0 28px 0;
+	/* padding-left: 28px; */
+}
+.navbar li a:hover {
+	color: #fdc283;
+}
+.navbar a {
+	text-decoration: none;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.logo {
+	padding: 0 100px 0;
+}
+.search {
+	margin-left: 48px;
+	margin-right: 48px;
+}
+.nav-body {
+	width: 100%;
+	height: 100vh;
+	background-image: url(img/background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.nav-body h1 {
+	padding: 167px 117px 32px;
+	max-width: 529px;
+	font-family: Righteous;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 94px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+.nav-body h2 {
+	padding-left: 117px;
+	padding-bottom: 32px;
+	max-width: 471px;
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 36px;
+	letter-spacing: 0em;
+	text-align: left;
+	text-transform: capitalize;
+	color: white;
+}
+.nav-body button {
+	margin-left: 117px;
+	height: 70px;
+	padding: 24px 40px 24px 40px;
+	background: #c99e71;
+	color: white;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 700;
+}
+.play {
+	float: right;
+	padding-right: 275px;
+}
+.mobile-disable {
+	width: 300px;
+	height: 100vh;
+	right: 0px;
+	top: 0px;
+	transform: translateX(500px);
+	background: #14110e;
+	position: fixed;
+	transition: 1s all;
+}
+.mobile-active {
+	display: none;
+	width: 300px;
+	height: 100vh;
+	right: 0px;
+	top: 0px;
+	background: #14110e;
+	position: fixed;
+	transition: 1s all;
+}
+.mobile li {
+	list-style: none;
+	margin: 20px 50px;
+}
+.mobile img {
+	margin: 20px 50px;
+}
+.mobile li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition: 0.2s all;
+}
+.mobile li a:hover {
+	color: #fdc283;
 }
 
-.navbar{
-    width: 100%;
-    height: 105px;
-    line-height: 105px;
-    background: #1C1814;
+.mobile i {
+	font-size: 30px;
+	color: white;
+	right: -80%;
+	/* top: 10px; */
+	margin-top: 20px;
+	position: relative;
+	transition: 0.2s all;
 }
-.navbar ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mobile i:hover {
+	transform: scale(1.3);
+	color: #fdc283;
 }
-.navbar li{
-    padding: 0 28px 0 ;
-    /* padding-left: 28px; */
+@media screen and (min-width: 900px) and (max-width: 1090px) {
+	.navbar ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.navbar li {
+		padding: 0 18px 0;
+		/* padding-left: 28px; */
+	}
+	.navbar a {
+		text-decoration: none;
+		color: white;
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+			sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.logo {
+		padding: 0 80px 0;
+	}
+	.search {
+		margin-left: 28px;
+		margin-right: 28px;
+	}
+	.play {
+		float: right;
+		padding-right: 175px;
+	}
+	.nav-body h1 {
+		padding: 147px 117px 32px;
+		max-width: 429px;
+		font-size: 52px;
+		line-height: 54px;
+	}
+	.nav-body h2 {
+		padding-left: 117px;
+		padding-bottom: 32px;
+		max-width: 371px;
+		font-family: Urbanist;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 33px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-transform: capitalize;
+		color: white;
+	}
+	.nav-body button {
+		margin-left: 117px;
+		height: 60px;
+		padding: 22px 38px 22px 38px;
+		background: #c99e71;
+		color: white;
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+	}
 }
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
 
-}
-.logo{
-    padding: 0 100px 0;
-}
-.search{
-    margin-left: 48px;
-    margin-right: 48px;
-}
-.nav-body{
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/background.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.nav-body h1{
-    padding: 167px 117px 32px;
-    max-width:529px;
-    font-family: Righteous;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 94px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-}
-.nav-body h2{
-    padding-left: 117px;
-    padding-bottom: 32px;
-    max-width: 471px;
-    font-family: Urbanist;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    text-transform: capitalize;
-    color: white;
-}
-.nav-body button{
-    margin-left: 117px;
-    height: 70px;
-    padding: 24px 40px 24px 40px;
-    background: #C99E71;
-    color: white;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 700;
-}
-.play{
-    float: right;
-    padding-right:275px ;
-}
-@media screen and (min-width:900px)  and (max-width:1090px){
-    
-    .navbar ul{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .navbar li{
-        padding: 0 18px 0 ;
-        /* padding-left: 28px; */
-    }
-    .navbar a{
-        text-decoration: none;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
+@media screen and (min-width: 400px) and (max-width: 899.9px) {
+	.navbar ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.shop {
+		display: none;
+	}
+	.navbar li {
+		padding: 0 8px 0;
+		display: none;
+	}
+	.navbar ul i {
+		display: block;
+		font-size: 30px;
+		color: white;
+		margin: 20px 50px 0;
+	}
 
-    }
-    .logo{
-        padding: 0 80px 0;
-    }
-    .search{
-        margin-left: 28px;
-        margin-right: 28px;
-    }
-    .play{
-        float: right;
-        padding-right:175px ;
-    }
+	.mobile-active {
+		display: block;
+	}
+	.logo {
+		padding: 20px 40px 0;
+	}
+	.search {
+		display: none;
+		margin-left: 18px;
+		margin-right: 18px;
+	}
+	.play {
+		padding-top: 60px;
+		padding-right: 105px;
+	}
+	.nav-body h1 {
+		padding: 90px 70px 32px;
+		max-width: 329px;
+		line-height: 34px;
+		font-size: 28px;
+	}
+	.nav-body h2 {
+		padding-left: 70px;
+		padding-bottom: 12px;
+		max-width: 271px;
+		font-size: 14px;
+	}
+	.nav-body button {
+		margin-left: 70px;
+		height: 50px;
+		padding: 12px 20px 20px 20px;
+		background: #c99e71;
+		color: white;
+		font-family: Inter;
+		font-size: 17px;
+		font-weight: 500;
+	}
 }
-@media screen and (min-width:300px) and (max-width:899.9px){
-    
-    .navbar ul{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .navbar li{
-        padding: 0 8px 0 ;
-        /* padding-left: 28px; */
-    }
-    .navbar a{
-        text-decoration: none;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-
-    }
-    .logo{
-        padding: 0 40px 0;
-    }
-    .search{
-        margin-left: 18px;
-        margin-right: 18px;
-    }
-    .play{
-        float: right;
-        padding-right:105px ;
-    }
+@media screen and (min-width: 100px) and (max-width: 399.9px) {
+	.navbar ul {
+		display: flex;
+		/* justify-content: space-between; */
+		align-items: center;
+	}
+	.shop {
+		display: none;
+	}
+	.navbar li {
+		padding: 0 8px 0;
+		display: none;
+	}
+	.navbar ul i {
+		display: block;
+		font-size: 30px;
+		color: white;
+		margin: 20px 50px 0;
+	}
+	.logo {
+		padding: 20px 40px 0;
+	}
+	.search {
+		display: none;
+		margin-left: 18px;
+		margin-right: 18px;
+	}
+	.play {
+		padding-top: 60px;
+		padding-right: 105px;
+		width: 60px;
+	}
+	.nav-body h1 {
+		padding: 90px 40px 32px;
+		max-width: 329px;
+		line-height: 34px;
+		font-size: 28px;
+	}
+	.nav-body h2 {
+		padding-left: 40px;
+		padding-bottom: 12px;
+		max-width: 271px;
+		font-size: 14px;
+	}
+	.nav-body button {
+		margin-left: 40px;
+		height: 50px;
+		padding: 12px 20px 20px 20px;
+		background: #c99e71;
+		color: white;
+		font-family: Inter;
+		font-size: 17px;
+		font-weight: 500;
+	}
+	.mobile-active {
+		display: block;
+		width: 250px;
+	}
 }
